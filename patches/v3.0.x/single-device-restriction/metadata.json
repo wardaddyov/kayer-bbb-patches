@@ -1,0 +1,9 @@
+{
+  "id": "single-device-restriction",
+  "name": "Enforce Single-Device Concurrency Policy",
+  "version": "1.0.0",
+  "target_bbb_versions": ["3.0.x", "3.0.35"],
+  "category": "backend-policy",
+  "description": "Restricts all users to 1 concurrent session per external ID and kicks older devices immediately if a new session connects.",
+  "author": "Kayer Team"
+}

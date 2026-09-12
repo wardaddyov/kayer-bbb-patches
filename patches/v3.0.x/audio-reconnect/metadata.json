@@ -1,0 +1,10 @@
+{
+  "id": "audio-reconnect",
+  "name": "WebRTC Voice Auto-Reconnect & ICE Retries",
+  "version": "1.0.0",
+  "target_bbb_versions": ["3.0.x", "3.0.35"],
+  "tested_bundle_hashes": ["6a3bad7c23098d12a528"],
+  "category": "audio-network",
+  "description": "Enables WebRTC ICE restart retries, relay fallback, and injects an HTML5 client reconnect heartbeat and online event listener to automatically restore student audio after network drops.",
+  "author": "Kayer Team"
+}
