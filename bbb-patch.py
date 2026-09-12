@@ -18,7 +18,7 @@ import json
 import argparse
 import subprocess
 
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 PATCHES_DIR = os.path.join(SCRIPT_DIR, "patches")
 
 def discover_patches():
