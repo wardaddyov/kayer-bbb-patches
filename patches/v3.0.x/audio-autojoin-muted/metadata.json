@@ -1,0 +1,9 @@
+{
+  "id": "audio-autojoin-muted",
+  "name": "Audio Auto-Join Muted & Lock Bypass",
+  "version": "1.0.0",
+  "target_bbb_versions": ["3.0.x", "3.0.35"],
+  "tested_bundle_hashes": ["6a3bad7c23098d12a528"],
+  "description": "Auto-joins locked users to microphone audio in muted state; enables instantaneous speech upon teacher unlock without echo test or device selection dialogs.",
+  "author": "Kayer Team"
+}
